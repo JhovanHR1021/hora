@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+    background-color: white; /* Color de fondo predeterminado */
+    color: black; /* Color de texto predeterminado */
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+#color-toggle {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.dark-mode {
+    background-color: black !important;
+    color: white !important;
+}
